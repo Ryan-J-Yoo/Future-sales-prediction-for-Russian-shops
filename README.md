@@ -2,8 +2,8 @@
 The project origin: https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
 
 The goal of this project is to use the past 34 months daily historical sales data of Russia stores to predict the total amount of products will be sold in the next month (35th month). Obviously, it is a time series problem.
-## Data Description
-### Files Description
+### Data Description
+#### Files Description
 - sales_train.csv - the training set. Daily historical data from January 2013 to October 2015.
 - test.csv - the test set. You need to forecast the sales for these shops and products for November 2015.
 - sample_submission.csv - a sample submission file in the correct format.
@@ -11,7 +11,7 @@ The goal of this project is to use the past 34 months daily historical sales dat
 - item_categories.csv  - supplemental information about the items categories.
 - shops.csv - supplemental information about the shops.
 
-### Data fields
+#### Data fields
 - ID - an Id that represents a (Shop, Item) tuple within the test set
 - shop_id - unique identifier of a shop
 - item_id - unique identifier of a product
@@ -23,9 +23,9 @@ The goal of this project is to use the past 34 months daily historical sales dat
 - item_name - name of item
 - shop_name - name of shop
 - item_category_name - name of item category
-## Model Selection
+### Model Selection
 For the model, LSTM (Partially applied) and XGBoost were used.
-## Evaluation Method
+### Evaluation Method
 Root mean squared error was used to evaluate final submission, and true target values are clipped into [0,20] range.
-## Result
+### Result
 The best result ended up with RMSE 
