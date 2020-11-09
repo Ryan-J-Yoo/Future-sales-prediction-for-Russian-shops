@@ -3,8 +3,8 @@ The project origin: https://www.kaggle.com/c/competitive-data-science-predict-fu
 
 The goal of this project is to use the past 34 months daily historical sales data of Russia stores to predict the total amount of products will be sold in the next month (35th month). Obviously, it is a time series problem.
 ## Data Description
-sales_train.csv - the training set. Daily historical data from January 2013 to October 2015.
-test.csv - the test set. You need to forecast the sales for these shops and products for November 2015.
+-sales_train.csv - the training set. Daily historical data from January 2013 to October 2015.
+-test.csv - the test set. You need to forecast the sales for these shops and products for November 2015.
 sample_submission.csv - a sample submission file in the correct format.
 items.csv - supplemental information about the items/products.
 item_categories.csv  - supplemental information about the items categories.
