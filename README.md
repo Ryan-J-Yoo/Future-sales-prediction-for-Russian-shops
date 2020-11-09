@@ -1,7 +1,7 @@
 # Future-sales-prediction-for-Russian-shops
 The project origin: https://www.kaggle.com/c/competitive-data-science-predict-future-sales/data
 
-In this project, the goal is to use the past 34 months daily historical sales data of Russia stores to predict the total amount of products will be sold in the next month (35th month). Obviously, it is a time series problem.
+The goal of this project is to use the past 34 months daily historical sales data of Russia stores to predict the total amount of products will be sold in the next month (35th month). Obviously, it is a time series problem.
 ## Model Selection
 For the model, LSTM (Partially applied) and XGBoost were used.
 ## Evaluation Method
