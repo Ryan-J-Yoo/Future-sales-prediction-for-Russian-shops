@@ -28,4 +28,4 @@ For the model, LSTM (Partially applied) and XGBoost were used.
 ### Evaluation Method
 Root mean squared error was used to evaluate final submission, and true target values are clipped into [0,20] range.
 ### Result
-The best result ended up with RMSE 
+The best result ended up with RMSE 1.24480
